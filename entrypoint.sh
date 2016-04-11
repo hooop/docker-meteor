@@ -132,6 +132,7 @@ if [ -e ${BUNDLE_DIR}/programs/server ]; then
 
    # Install all NPM packages
    npm install
+   nom install -g phantomjs-prebuilt
    popd
 else
    echo "Unable to locate server directory in ${BUNDLE_DIR}; hold on: we're likely to fail"
